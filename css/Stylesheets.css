@@ -5,6 +5,35 @@ a[href^="mailto"]::before {
 a[href^="tel"]::before {
     content: "📞 ";
 }
-#headshot {
+#headshot:hover {
+      transform: scale(1.08) rotate(10deg);
+    }
+    #headshot {
       border-radius: 50%;
     }
+
+    * {background-color: #0141B8}
+
+p {color: white}
+
+h1 {color: white;
+   text-align: center;}
+
+h3 {color: white;
+    text-align: center;}
+
+p {
+  /* Center horizontally*/
+  text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
