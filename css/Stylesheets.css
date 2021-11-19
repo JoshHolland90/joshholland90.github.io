@@ -5,7 +5,6 @@ a[href^="mailto"]::before {
 a[href^="tel"]::before {
     content: "📞 ";
 }
-
 #headshot {
       border-radius: 50%;
-  }
+    }
