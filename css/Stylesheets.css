@@ -27,13 +27,21 @@ p {
   text-align: center;
 }
 
-footer {
-    text-align: center;
-}
-
 #headshot {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: auto;
 }
+
+nav {
+    Color: white;
+}
+ul {
+    color: white;
+}
+
+address {color: white;
+    text-align: center;}
+
+    a {color:white;}
