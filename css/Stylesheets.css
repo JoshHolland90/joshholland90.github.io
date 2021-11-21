@@ -3,41 +3,29 @@ a[href^="mailto"]::before {
 }
 
 a[href^="tel"]::before {
-    content: "📞 ";
+    content: "📞 ";}
 
-nav {
-  background-color: white;
+#headshot
+    {border-radius: 50%;
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+     width: auto;}
+
+    body {
+        background-color: #0141B8;
+    }
+
+p {
+    color: white;
+text-align: center;
 }
-}
-#headshot:hover {
-      transform: scale(1.08) rotate(10deg);
-    }
-    #headshot {
-      border-radius: 50%;
-    }
-
-    * {background-color: #0141B8;
-    }
-
-p {color: white;}
 
 h1 {color: white;
    text-align: center;}
 
 h3 {color: white;
     text-align: center;}
-
-p {
-  /* Center horizontally*/
-  text-align: center;
-}
-
-#headshot {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-}
 
 nav {
     Color: white;
@@ -49,4 +37,15 @@ ul {
 address {color: white;
     text-align: center;}
 
-    a {color:white;}
+
+header {background-color: white;}
+
+footer {background-color: white;}
+
+#mailtoaddress {
+    color: white;
+}
+
+#contactphone {
+    color: white;
+}
