@@ -4,6 +4,10 @@ a[href^="mailto"]::before {
 
 a[href^="tel"]::before {
     content: "📞 ";
+
+nav {
+  background-color: white;
+}
 }
 #headshot:hover {
       transform: scale(1.08) rotate(10deg);
@@ -12,9 +16,10 @@ a[href^="tel"]::before {
       border-radius: 50%;
     }
 
-    * {background-color: #0141B8}
+    * {background-color: #0141B8;
+    }
 
-p {color: white}
+p {color: white;}
 
 h1 {color: white;
    text-align: center;}
